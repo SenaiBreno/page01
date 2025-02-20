@@ -1,0 +1,101 @@
+p {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: brown;
+    border-radius: 0 100px 0 100px;
+    background-color: white;
+    padding: 40px;
+    width: 325px;
+    
+  }
+h1 {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: brown;
+    text-align: center;
+    color: white;
+    padding: 20px 10px 20px 10px;
+}
+ol {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    padding: 40px;
+}
+    
+img {
+    border: solid 5px white;
+    border-radius: 70px 0 70px 0;
+
+}
+
+
+* {
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimentos padrão */
+    box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho dos elementos */
+}
+body {
+    display: flex; /* Usa flexbox para estruturar os elementos */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    height: 100vh; /* Define altura total da tela */
+    font-family: Arial, sans-serif; /* Define a fonte padrão */
+    background: rgb(250, 228, 186); /* Define o fundo branco */
+    text-align: left;
+    
+}
+.topo {
+    background: white; /* Define a cor de fundo */
+    height: 400px; /* Define altura do topo */
+    text-align: center; /* Centraliza o texto */
+    color: brown; /* Define cor do texto */
+    display: flex; /* Usa flexbox para alinhamento interno */
+    align-items: center; /* Alinha itens verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    border: 5px solid white; /* Adiciona uma borda branca */
+    
+}
+.container {
+    display: flex; /* Usa flexbox para estruturar navegação e conteúdo */
+    flex: 1; /* Ocupa o espaço disponível */
+}
+.navegacao {
+    background: rgb(250, 228, 186); /* Define cor de fundo */
+    width: 400px; /* Define largura da navegação */
+    writing-mode: vertical-rl; /* Rotaciona o texto verticalmente */
+    text-align: center; /* Centraliza o texto */
+    color: brown; /* Define cor do texto */
+    display: flex; /* Usa flexbox para alinhamento interno */
+    align-items: center; /* Alinha itens verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    border: 5px solid white; /* Adiciona uma borda branca */
+    
+}
+.conteudo {
+    background: rgb(250, 228, 186); /* Define cor de fundo */
+    flex: 1; /* Ocupa o espaço restante */
+    color: black; /* Define cor do texto */
+    border: 5px solid white; /* Adiciona uma borda branca */
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.rodape {
+    background: brown; /* Define cor de fundo */
+    height: 10px; /* Define altura do rodapé */
+    text-align: center; /* Centraliza o texto */
+    color: white; /* Define cor do texto */
+    display: flex; /* Usa flexbox para alinhamento interno */
+    align-items: center; /* Alinha itens verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    border: 5px solid white; /* Adiciona uma borda branca */
+}
+
+
